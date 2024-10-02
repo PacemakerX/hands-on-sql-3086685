@@ -6,3 +6,7 @@ ALTER TABLE states RENAME TO new_states;
 
 --Rename column name
 ALTER TABLE new_states RENAME COLUMN test_col TO testing;
+
+
+--  alter table used to add , rename a column from the database 
+ 
