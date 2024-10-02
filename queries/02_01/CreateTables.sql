@@ -18,3 +18,14 @@ CREATE TABLE states
   CONSTRAINT states_state_id_pk PRIMARY KEY(state_id), 
   CONSTRAINT states_country_id_fk FOREIGN KEY(country_id) 
   REFERENCES countries(country_id));
+
+
+  -- constraints are rules to be followed, at the table level or columm level
+
+  --  the constraints must be complied with
+
+
+  -- PRIMARY KEY - unique and not null value for each row
+
+  -- FOREIGN KEY - unique and not null value of different table
+  --  from diferent talbes , 
