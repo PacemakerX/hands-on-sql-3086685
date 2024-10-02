@@ -17,3 +17,7 @@ SELECT *
 FROM country_tab c 
 LEFT JOIN states_tab s 
 ON c.country_id=s.country_id;
+
+-- Joins hlps with using data from different tables
+-- they are of four types
+--  inner ,right, left, full outer
